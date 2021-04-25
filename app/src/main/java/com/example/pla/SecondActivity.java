@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.os.Bundle;
 import android.widget.TextView;
 
-
+//깃허브 확인용 주석문
 public class SecondActivity extends AppCompatActivity {
 
     @Override
