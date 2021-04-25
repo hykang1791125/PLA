@@ -30,10 +30,11 @@
 
         <EditText
             android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
             android:ems="10"
-            android:gravity="center_horizontal|center_vertical"
+            android:gravity="center_vertical"
             android:inputType="textPersonName"
             android:text="Name" />
     </LinearLayout>
@@ -118,8 +119,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="A1"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
 
                 <ImageView
                     android:id="@+id/carA2image"
@@ -138,8 +138,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="A2"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -167,8 +166,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="B1"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
 
                 <ImageView
                     android:id="@+id/carB2image"
@@ -187,8 +185,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="B2"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
             </LinearLayout>
         </LinearLayout>
 
@@ -223,8 +220,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="D1"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
 
                 <ImageView
                     android:id="@+id/carD2image"
@@ -243,8 +239,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="D2"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -272,8 +267,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="C1"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
 
                 <ImageView
                     android:id="@+id/carC2image"
@@ -292,8 +286,7 @@
                     android:layout_weight="1"
                     android:background="#8BC34A"
                     android:text="C2"
-                    android:textAlignment="center"
-                    app:backgroundTint="#8BC34A" />
+                    android:textAlignment="center" />
             </LinearLayout>
         </LinearLayout>
 
