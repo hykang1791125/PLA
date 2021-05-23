@@ -44,42 +44,42 @@ public class ThirdActivity extends AppCompatActivity {
                 switch (v.getId())
                 {
                     case R.id.carA1button:
-                    {
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        {
+                        Toast.makeText(getApplicationContext(), "선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "선택할 수 없는 자리입니다", Toast.LENGTH_SsHORT).how();
                     }break;
                     case R.id.carA2button:
                     {
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.carB1button:{
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.carB2button:{
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.carC1button:{
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.carC2button:{
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.carD1button:{
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.carD2button:{
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.activeAlarm:{
                         Toast.makeText(getApplicationContext(),"주차 자리가 생기면 알림이 울립니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"주차 자리가 생기면 알림이 울립니다", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(),"주차 자리가 생기면 알림이 울립니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.close_button:{
                         finish();
