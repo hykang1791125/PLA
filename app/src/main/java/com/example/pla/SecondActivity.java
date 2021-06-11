@@ -12,7 +12,7 @@ import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.TextView;
 
-//깃허브 확인용 주석문
+//깃허브 확인용 주석문222
 public class SecondActivity extends AppCompatActivity {
 
     @Override
@@ -151,14 +151,14 @@ public class SecondActivity extends AppCompatActivity {
             }
       };
 
-//        locationSavebutton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
-//                //intent.putExtra("name2", editText.getText());
-//                startActivity(intent);
-//            }
-//        });
+        locationSavebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+                //intent.putExtra("name2", editText.getText());
+                startActivity(intent);
+            }
+        });
 
         carA1button.setOnClickListener(listener);
         carA2button.setOnClickListener(listener);
@@ -169,5 +169,7 @@ public class SecondActivity extends AppCompatActivity {
         carD1button.setOnClickListener(listener);
         carD2button.setOnClickListener(listener);
         locationSavebutton.setOnClickListener(listener);
+
+
     }
 }

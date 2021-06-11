@@ -79,17 +79,6 @@
                 android:layout_weight="10"
                 app:srcCompat="@drawable/active_alaram" />
 
-            <Button
-                android:id="@+id/activeAlarm"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_weight="1"
-                android:background="#78CAC0"
-                android:onClick="onButtonClicked"
-                android:gravity="center_horizontal|center_vertical"
-                android:text="알림 설정" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -314,15 +303,21 @@
         android:id="@+id/bottom_empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="3"
-        android:orientation="vertical">
+        android:layout_weight="3">
 
         <Button
-            android:id="@+id/close_button"
+            android:id="@+id/gate2_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gate2" />
+
+        <Button
+            android:id="@+id/gate1_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|center_vertical"
             android:gravity="center_horizontal|center_vertical"
-            android:text="Close" />
+            android:text="Gate1" />
     </LinearLayout>
 </LinearLayout>

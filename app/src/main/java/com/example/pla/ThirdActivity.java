@@ -1,16 +1,12 @@
 package com.example.pla;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.view.Gravity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.content.Intent;
-import androidx.annotation.Nullable;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ThirdActivity extends AppCompatActivity {
@@ -28,14 +24,14 @@ public class ThirdActivity extends AppCompatActivity {
         Button carC2button = (Button)findViewById(R.id.carC2button);
         Button carD1button = (Button)findViewById(R.id.carD1button);
         Button carD2button = (Button)findViewById(R.id.carD2button);
+        Button gate1_button = (Button)findViewById(R.id.gate1_button);
+        Button gate2_button = (Button)findViewById(R.id.gate2_button);
 
-        Button close_button = (Button)findViewById(R.id.close_button);
-        Button activeAlarm = (Button)findViewById(R.id.activeAlarm);
         TextView textView = (TextView) findViewById(R.id.editTextTextPersonName);
 
         Intent intent = getIntent();
-//        String name3 = intent.getExtras().get("name2").toString();
-//        textView.setText(name3);
+        String name3 = intent.getExtras().get("name2").toString();
+        //editText.setText(name3);
 
         View.OnClickListener listener = new View.OnClickListener(){
 
@@ -46,7 +42,7 @@ public class ThirdActivity extends AppCompatActivity {
                     case R.id.carA1button:
                         {
                         Toast.makeText(getApplicationContext(), "선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(), "선택할 수 없는 자리입니다", Toast.LENGTH_SsHORT).how();
+                        Toast.makeText(getApplicationContext(), "선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
                     case R.id.carA2button:
                     {
@@ -77,12 +73,9 @@ public class ThirdActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_LONG).show();
                         Toast.makeText(getApplicationContext(),"선택할 수 없는 자리입니다", Toast.LENGTH_SHORT).show();
                     }break;
-                    case R.id.activeAlarm:{
-                        Toast.makeText(getApplicationContext(),"주차 자리가 생기면 알림이 울립니다", Toast.LENGTH_LONG).show();
-                        Toast.makeText(getApplicationContext(),"주차 자리가 생기면 알림이 울립니다", Toast.LENGTH_SHORT).show();
-                    }break;
-                    case R.id.close_button:{
-                        finish();
+
+                    case R.id.gate1_button:{
+
                     }break;
                 }
             }
@@ -96,9 +89,9 @@ public class ThirdActivity extends AppCompatActivity {
         carC2button.setOnClickListener(listener);
         carD1button.setOnClickListener(listener);
         carD2button.setOnClickListener(listener);
-        activeAlarm.setOnClickListener(listener);
-        close_button.setOnClickListener(listener);
 
+        gate1_button.setOnClickListener(listener);
+        gate2_button.setOnClickListener(listener);
     }
 
 //    public void onButtonClicked(View view){
